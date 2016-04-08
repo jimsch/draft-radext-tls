@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding='US-ASCII'?>
-<?rfc rfcedstyle='yes'?>
-<?rfc rfcprocack='yes'?>
 <?rfc toc='yes'?>
 <?rfc symrefs='yes'?>
 <?rfc sortrefs='yes' ?>
 <?rfc compact='yes'?>
 <?rfc subcompact='no' ?>
+
 <!DOCTYPE rfc SYSTEM "../xml2rfc-1.36/rfc2629.dtd" [
 
       <!ENTITY rfc2119     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.2119.xml">
@@ -26,9 +25,17 @@
       <!ENTITY rfc6125     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6125.xml">
       <!ENTITY rfc6421     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6421.xml">
     ]>
-<rfc submissionType="IETF" consensus="yes" ipr='trust200902' number="6614" category='exp'>
+<rfc ipr='trust200902' docName="draft-schaad-radext-rfc6614-bis-latest" category='std' updates="RFC6614">
   <front>
     <title abbrev="RADIUS over TLS" >Transport Layer Security (TLS) Encryption for RADIUS</title>
+    <author fullname="Jim Schaad" initials="J." surname="Schaad">
+      <organization>August Cellars</organization>
+      <address>
+        <email>ietf@augustcellars.com</email>
+      </address>
+    </author>
+
+    <!--
     <author fullname="Stefan Winter" initials="S." surname="Winter" >
 	<organization abbrev="RESTENA" >
 		  Fondation RESTENA
@@ -92,8 +99,9 @@
 			    <email>klaas@cisco.com</email>
 		    <uri>http://www.cisco.com</uri>
 	    </address>
-      </author>
-    <date month="May" year="2012" />
+            </author>
+            -->
+    <date/>
     <area>Operations and Management Area</area>
     <workgroup>RADIUS Extensions Working Group</workgroup>
     <keyword>RADIUS</keyword>
