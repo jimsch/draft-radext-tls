@@ -453,7 +453,7 @@ anchor="radius-compat">
    the classic UDP transport model as defined in <xref target="RFC2865" />, namely
    RADIUS over TCP <xref target="RFC6613" /> and the present document on RADIUS
    over TLS.  The IETF also proposed RADIUS over Datagram Transport Layer
-   Security (DTLS) <xref target="7360" />. </t>
+   Security (DTLS) <xref target="RFC7360" />. </t>
 
 	    <t>
 		    RADIUS/TLS does not specify any inherent backward compatibility
