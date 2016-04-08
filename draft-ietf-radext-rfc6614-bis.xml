@@ -578,15 +578,15 @@ and Network Middleware <xref target="terena" />.</t>
 		  &rfc6066;
 
 
-                  &RFC6613;
-                  &RFC6614;
+                  &rfc6613;
+                  &rfc6614;
 	  </references>
           
     <references title="Informative References">
 
 
 
-      &RFC7360;
+      &rfc7360;
 
 
 
@@ -597,7 +597,7 @@ and Network Middleware <xref target="terena" />.</t>
 	    &rfc4953;
             &rfc6125;
             &rfc6421;
-            &RFC7585;
+            &rfc7585;
 	<reference anchor="radsec-whitepaper"
 target="http://www.open.com.au/radiator/radsec-whitepaper.pdf">
 		<front>
