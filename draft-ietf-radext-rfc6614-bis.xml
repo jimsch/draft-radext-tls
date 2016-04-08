@@ -24,6 +24,10 @@
       <!ENTITY rfc6066     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6066.xml">
       <!ENTITY rfc6125     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6125.xml">
       <!ENTITY rfc6421     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6421.xml">
+      <!ENTITY rfc6613     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6614.xml">
+      <!ENTITY rfc6614     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6614.xml">
+      <!ENTITY rfc7360     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7360.xml">
+      <!ENTITY rfc7585     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7585.xml">
     ]>
 <rfc ipr='trust200902' docName="draft-schaad-radext-rfc6614-bis-latest" category='std' updates="RFC6614">
   <front>
@@ -109,8 +113,13 @@
     <keyword>Security</keyword>
     <keyword>Reliability</keyword>
     <abstract>
-	    <t>This document specifies a transport profile for RADIUS using Transport Layer Security (TLS) over TCP as the transport protocol. This enables dynamic trust
-relationships between RADIUS servers.</t>
+      <t>
+        This document specifies a transport profile for RADIUS using Transport Layer Security (TLS) over TCP as the transport protocol.
+        This enables dynamic trust relationships between RADIUS servers.
+      </t>
+      <t>
+        This document updates RFC 6614.
+      </t>
     </abstract>
   </front>
   <middle>
@@ -191,6 +200,11 @@ is by observing the uptake, usability, and operational behavior of the protocol
 in large-scale, real-life deployments.</t> 
 <t>An example for a worldwide roaming environment that uses RADIUS over TLS to
 secure communication is "eduroam", see <xref target="eduroam"/>.</t> 
+        </section>
+        <section title="Changes from RFC 6614">
+          <t>
+            This section lists the changes that have been made since RFC 6614 <xref target="RFC6614"/>.
+          </t>
         </section>
     </section>
     <section title="Normative: Transport Layer Security for RADIUS/TCP"
@@ -564,71 +578,17 @@ and Network Middleware <xref target="terena" />.</t>
 		  &rfc6066;
 
 
-
-<reference anchor='RFC6613'>
-<front>
-<title>RADIUS over TCP</title>
-
-<author initials='A' surname='DeKok' fullname='Alan DeKok'>
-    <organization />
-</author>
-
-<date month='May'  year='2012' />
-
-<abstract><t>The Remote Authentication Dial In User Server (RADIUS) Protocol has until now required the User Datagram Protocol (UDP) as the underlying transport layer.  This document defines RADIUS over the Transmission Control Protocol (RADIUS/TCP), in order to address handling issues related to RADIUS over Transport Layer Security (RADIUS/TLS).  It permits TCP to be used as a transport protocol for RADIUS only when a transport layer such as TLS or IPsec provides confidentialy and security.</t></abstract>
-
-</front>
-
-<seriesInfo name='RFC' value='6613' />
-</reference>
-
+                  &RFC6613;
+                  &RFC6614;
 	  </references>
+          
     <references title="Informative References">
 
 
 
-
-<reference anchor='RADEXT-DTLS'>
-<front>
-<title>DTLS as a Transport Layer for RADIUS</title>
-
-<author initials='A' surname='DeKok' fullname='Alan DeKok'>
-    <organization />
-</author>
-
-<date month='October' day='12' year='2010' />
-
-<abstract><t>The RADIUS protocol [RFC2865] has limited support for authentication and encryption of RADIUS packets.  The protocol transports data "in the clear", although some parts of the packets can have "hidden" content.  Packets may be replayed verbatim by an attacker, and client-server authentication is based on fixed shared secrets.  This document specifies how the Datagram Transport Layer Security (DTLS) protocol may be used as a fix for these problems.  It also describes how implementations of this proposal can co-exist with current RADIUS systems.</t></abstract>
-
-</front>
-
-<seriesInfo name='Work in' value='Progress' />
-
-</reference>
+      &RFC7360;
 
 
-
-
-<reference anchor='DYNAMIC'>
-<front>
-<title>NAI-based Dynamic Peer Discovery for RADIUS/TLS and RADIUS/DTLS</title>
-
-<author initials='S' surname='Winter' fullname='Stefan Winter'>
-    <organization />
-</author>
-
-<author initials='M' surname='McCauley' fullname='Mike McCauley'>
-    <organization />
-</author>
-
-<date month='July' day='8' year='2011' />
-
-<abstract><t>This document specifies a means to find authoritative RADIUS servers for a given realm.  It can be used in conjunction with RADIUS/TLS and RADIUS/DTLS.</t></abstract>
-
-</front>
-
-<seriesInfo name='Work in' value='Progress' />
-</reference>
 
 	    &rfc3539;
 	    &rfc3588;
@@ -637,6 +597,7 @@ and Network Middleware <xref target="terena" />.</t>
 	    &rfc4953;
             &rfc6125;
             &rfc6421;
+            &RFC7585;
 	<reference anchor="radsec-whitepaper"
 target="http://www.open.com.au/radiator/radsec-whitepaper.pdf">
 		<front>
