@@ -360,8 +360,8 @@ Accounting-Request packets.</t>
 		<t>This section explains the design decisions that led to the
 rules defined in the previous section.</t>
 <section title="Implications of Dynamic Peer Discovery">
-<t>One mechanism to discover RADIUS-over-TLS peers dynamically via DNS is specified in <xref target="DYNAMIC" />.  While this mechanism is still under development and therefore is not a normative dependency of RADIUS/TLS, the use of dynamic discovery has potential future implications that are important to understand.</t>
-<t>Readers of this document who are considering the deployment of DNS-based dynamic discovery are thus encouraged to read <xref target="DYNAMIC" /> and follow its future development.</t>
+<t>One mechanism to discover RADIUS-over-TLS peers dynamically via DNS is specified in <xref target="RFC7585" />.  While this mechanism is still under development and therefore is not a normative dependency of RADIUS/TLS, the use of dynamic discovery has potential future implications that are important to understand.</t>
+<t>Readers of this document who are considering the deployment of DNS-based dynamic discovery are thus encouraged to read <xref target="RFC7585" /> and follow its future development.</t>
 </section>
 		<section title="X.509 Certificate Considerations"
 anchor="design-cert">
@@ -453,7 +453,7 @@ anchor="radius-compat">
    the classic UDP transport model as defined in <xref target="RFC2865" />, namely
    RADIUS over TCP <xref target="RFC6613" /> and the present document on RADIUS
    over TLS.  The IETF also proposed RADIUS over Datagram Transport Layer
-   Security (DTLS) <xref target="RADEXT-DTLS" />. </t>
+   Security (DTLS) <xref target="7360" />. </t>
 
 	    <t>
 		    RADIUS/TLS does not specify any inherent backward compatibility
