@@ -24,7 +24,7 @@
       <!ENTITY rfc6066     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6066.xml">
       <!ENTITY rfc6125     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6125.xml">
       <!ENTITY rfc6421     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6421.xml">
-      <!ENTITY rfc6613     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6614.xml">
+      <!ENTITY rfc6613     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6613.xml">
       <!ENTITY rfc6614     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.6614.xml">
       <!ENTITY rfc7360     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7360.xml">
       <!ENTITY rfc7585     SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7585.xml">
